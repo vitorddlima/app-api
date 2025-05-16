@@ -22,7 +22,7 @@ export default function List() {
     return (
         <>
             <View style={styles.center}>
-                <Text style={styles.title}>API na Vertical</Text>
+                <Text style={styles.title}>Vertical</Text>
             </View>
 
             <SafeAreaView style={styles.container}>

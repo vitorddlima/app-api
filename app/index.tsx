@@ -8,14 +8,14 @@ export default function HomeScreen() {
 
     return (
         <SafeAreaView style={styles.container}>
-            <ImageBackground source={require("../assets/images/Fundo.png")} style={styles.background}>
+            <ImageBackground source={require("../assets/images/fundo.jpg")} style={styles.background}>
                 <View style={styles.center}>
                     <Text style={styles.texto}>Rick And Morty API</Text>
 
-                    <Image source={require("../assets/images/rick.png")} style={styles.Rickimage} />
+                
 
                     <TouchableOpacity style={styles.button} onPress={onPress}>
-                        <Text style={styles.btnText}>ENTRAR NA API</Text>
+                        <Text style={styles.btnText}>ENTRAR</Text>
                     </TouchableOpacity>
                 </View>
             </ImageBackground>
